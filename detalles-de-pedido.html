@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quimovil</title>
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--font-awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fonts-->
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <!-- mystyles-->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/medias.css" rel="stylesheet" type="text/css">
+  </head>
+  <body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Quimovil</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Toma de Pedido<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Borradores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pedidos enviado</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Estado de pedido</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--<div style="padding: 10px 0 150px; background-color: #fff;height: 100%;">
+  <img src="img/sss.png" style="width: 100%;">
+</div>-->
+<div class="nav-pedido">
+  <button class="tablink" onclick="openCity('datos-comerciales', this )" id="defaultOpen">DATOS COMERCIALES</button>
+  <button class="tablink" onclick="openCity('posiciones', this )">POSICIONES</button>
+</div>
+<div class="block-pedido">
+  <div class="container-fluid">
+
+    <div id="datos-comerciales" class="tabcontent">
+      <div class="row">
+        <div class="back-form-detalle">
+            <form class="form">  
+              <div class="form-group">
+                <input class="form-group-input" type="text" required>
+                <label class="form-group-label">Area de venta</label>
+                <div class="form-group-line"></div>
+              </div>
+              <div class="form-group">
+                <input class="form-group-input" type="text" required>
+                <label class="form-group-label">Clase</label>
+                <div class="form-group-line"></div>
+              </div>
+              <div class="form-group">
+                <input class="form-group-input" type="text" required>
+                <label class="form-group-label">Destinatario:</label>
+                <div class="form-group-line"></div>
+              </div>
+              <div class="form-group">
+                <input class="form-group-input" type="text" required>
+                <label class="form-group-label">Vendedor:</label>
+                <div class="form-group-line"></div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                      <input class="form-group-input" type="text" required>
+                      <label class="form-group-label">Vend (ZR):</label>
+                      <div class="form-group-line"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                      <input class="form-group-input" type="text" required>
+                      <label class="form-group-label">Vend (ZR):</label>
+                      <div class="form-group-line"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                      <input class="form-group-input" type="text" required>
+                      <label class="form-group-label">Centro:</label>
+                      <div class="form-group-line"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                      <input class="form-group-input" type="text" required>
+                      <label class="form-group-label">Cod. de Pago:</label>
+                      <div class="form-group-line"></div>
+                    </div>
+                </div>
+              </div>
+             <button>AGREGAR PRODUCTOS</button>
+            </form>
+
+        </div>
+      </div>
+
+    </div>
+    <div id="posiciones" class="tabcontent">
+<div class="search">
+     <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar por codigo, nombre o linea" id="txtbuscar">
+        <span class="input-group-btn">
+        <button type="button" class="btn btn-green" id="buscar" ><i class="fa fa-search" aria-hidden="true"></i>
+         <span class="glyphicon glyphicon-search"></span></button>
+        </span>
+      </div>
+  <div class="customers">
+    <div class="container">
+      <div class="cust-route">
+        <h3>Productos sugerido</h3>
+        <div class="row"></div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- jQuery , Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--myjs-->
+    <script src="js/min.js"></script>
+</body>
+</html>

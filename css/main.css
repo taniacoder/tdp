@@ -327,6 +327,7 @@ table.minimalistBlack tfoot td {
 }
 .nav-pedido .tablink {
   width: 50%;
+  font-size: 15px;
 }
 .back-form-detalle {
   background-color: #fff;
@@ -376,7 +377,7 @@ table.minimalistBlack tfoot td {
 .form-group-input:valid ~ .form-group-label {
   font-size: 14px;
   top: 0px;
-  color: var(--blue);
+  color: #2f9075;
 }
 .form-group-input {
   font-size: 18px;

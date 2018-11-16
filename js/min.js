@@ -14,8 +14,6 @@ function openCity(cityName,elmnt) {
     document.getElementById(cityName).style.display = "block";
     elmnt.style.backgroundColor = '#0E646A';
     elmnt.style.color = '#ffff';
-
-
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
@@ -23,7 +21,6 @@ document.getElementById("defaultOpen").click();
 
 
 //Toggle chevrons
-
 function toggleChevron(e) {
 $(e.target)
 .prev('.panel-heading')

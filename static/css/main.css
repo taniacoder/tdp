@@ -69,7 +69,6 @@ p {
   color: #fff;
   font-weight: 500; }
 
-/*botones*/
 .inicio-opciones {
   background: #fff;
   padding: 50px 0;
@@ -82,7 +81,6 @@ p {
 .btn-circulo h2 {
   font-size: 17px; }
 
-/*clientes-timeline*/
 div.cients-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,7 +178,6 @@ div.cients-list {
 #timeline .item a {
   color: #0e656b; }
 
-/*******tabs info*********/
 .info-cost {
   background-color: #fff; }
 
@@ -345,7 +342,6 @@ div.cients-list {
   font-size: 14px;
   padding-top: 5px; }
 
-/*Posiciones*/
 #posiciones .empty-cart {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -594,3 +590,9 @@ div.cients-list {
     margin: 10px;
     min-width: 153px;
     display: inline-block; }
+
+.felicidades {
+  background-color: #31b572;
+  margin: 10px 0;
+  padding: 10px;
+  color: #fff; }

@@ -1,0 +1,101 @@
+doctype html
+html
+  head
+    include base/head.pug
+  body
+    include base/menu.pug
+
+    .head-title
+      .container-fluid.text-center
+        a(href='clientes.html').float-left
+          i.fas.fa-arrow-left
+        p 458565
+        p Alcimar Farm E.I.R.L. / BOTICA ALCIMARS
+    .nav-pedido
+      button#defaultOpen.tablink(onclick="openCity('datos-comerciales', this )") DATOS COMERCIALES
+      button.tablink(onclick="openCity('posiciones', this )") POSICIONES
+    .block-pedido
+        #datos-comerciales.tabcontent
+          .container-fluid
+            .row
+              .back-form-detalle
+                form.form
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Area de venta
+                    .form-group-line
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Clase
+                    .form-group-line
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Destinatario:
+                    .form-group-line
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Vendedor:
+                    .form-group-line
+                  .row
+                    .col
+                      .form-group
+                        input.form-group-input(type='text', required='')
+                        label.form-group-label Vend (ZR):
+                        .form-group-line
+                    .col
+                      .form-group
+                        input.form-group-input(type='text', required='')
+                        label.form-group-label Vend (ZR):
+                        .form-group-line
+                .row
+                  .col
+                    .form-group
+                      input.form-group-input(type='text', required='')
+                      label.form-group-label Centro:
+                      .form-group-line
+                  .col
+                    .form-group
+                      input.form-group-input(type='text', required='')
+                      label.form-group-label Cod. de Pago:
+                      .form-group-line
+                .row
+                  .col
+                    .btn-tdp
+                      a(href="#") AGREGAR PRODUCTOS
+        #posiciones.tabcontent
+          .icon-add
+            img(src='img/icon-add.svg')
+          //.empty-cart
+              h3 Agregar productos
+              img(src='img/cruz.svg')
+          .box-product
+            .delete.float-right
+              a(href='#')
+                i.fas.fa-times
+            .row
+              .col
+                .name
+                  h6 465341 - ALIPRAC PV ORAL CAJ X 06
+            .row
+              .col
+                .form-group
+                  input.form-group-input(type='text', required='')
+                  label.form-group-label Posición:
+                  .form-group-line
+              .col
+                .form-group
+                  input.form-group-input(type='text', required='')
+                  label.form-group-label Cantidad:
+                  .form-group-line
+              .col-1
+                .icon-edit
+                  a(href='editar-productos')
+                    img(src='img/icon-edit.svg')
+              .col.total
+                p Total: 300
+          .btn-posicion
+            p Total Neto:     S/.600.00
+            a(href="") GUARDAR
+            a(href="") CONFIRMAR PEDIDO
+            
+    include base/script.pug

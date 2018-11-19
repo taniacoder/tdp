@@ -5,62 +5,48 @@
     <meta name="keywords" content="">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--font-awesom-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font-awesom-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- fonts-->
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <!-- mystyles-->
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/medias.css" rel="stylesheet" type="text/css">
   </head>
-  <body> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Quimovil</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Toma de Pedido<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Borradores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pedidos enviado</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Estado de pedido</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="productos">
-  <div class="head-title">
-  <div class="container-fluid">
-    <h2>PRODUCTOS</h2>
-  </div>
-</div>
-  <div class="container-fluid">
-      <div class="search">
-           <div class="input-group">
-              <input type="text" class="form-control" placeholder="Buscar por codigo, nombre o linea" id="txtbuscar">
-              <span class="input-group-btn">
-              <button type="button" class="btn btn-green" id="buscar" ><i class="fa fa-search" aria-hidden="true"></i>
-               <span class="glyphicon glyphicon-search"></span></button>
-              </span>
+  <body>
+    <!-- Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#">Quimovil</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Toma de Pedido<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Borradores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pedidos enviado</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Estado de pedido</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="productos">
+      <div class="head-title">
+        <div class="container-fluid">
+          <h2>PRODUCTOS</h2>
+          <div class="agregar"><img src="img/icon-agregar.svg"></div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="search">
+          <div class="input-group">
+            <input class="form-control" id="txtbuscar" type="text" placeholder="Buscar por codigo, nombre o linea"><span class="input-group-btn">
+              <button class="btn btn-green" id="buscar" type="button"><i class="fa fa-search" aria-hidden="true"></i><span class="glyphicon glyphicon-search"></span></button></span>
+          </div>
+          <div class="customers">
+            <div class="cust-route">
+              <h3>Productos sugerido</h3>
             </div>
-        <div class="customers">
-          <div class="cust-route">
-            <h3>Productos sugerido</h3>
           </div>
         </div>
-        </div>
-
         <div id="products-list">
           <div class="block-prod">
             <div>
@@ -71,9 +57,7 @@
                     <p>Linea: 011A -Abboutt Nutricional</p>
                   </div>
                 </div>
-                <div class="col-2"> 
-                  <img src="img/regalo.svg">
-                </div>
+                <div class="col-2"><img src="img/regalo.svg"></div>
               </div>
               <hr>
               <div class="row">
@@ -87,7 +71,7 @@
                 </div>
                 <div class="col">
                   <p>Tránsito: 0.0 </p>
-                  <p>Tránsito: 0.0 </p>  
+                  <p>Tránsito: 0.0 </p>
                 </div>
               </div>
             </div>
@@ -103,9 +87,7 @@
                     <p>Linea: 011A -Abboutt Nutricional</p>
                   </div>
                 </div>
-                <div class="col-2"> 
-                  <img src="img/regalo.svg">
-                </div>
+                <div class="col-2"><img src="img/regalo.svg"></div>
               </div>
               <hr>
               <div class="row">
@@ -119,7 +101,7 @@
                 </div>
                 <div class="col">
                   <p>Tránsito: 0.0 </p>
-                  <p>Tránsito: 0.0 </p>  
+                  <p>Tránsito: 0.0 </p>
                 </div>
               </div>
             </div>
@@ -135,9 +117,7 @@
                     <p>Linea: 011A -Abboutt Nutricional</p>
                   </div>
                 </div>
-                <div class="col-2"> 
-                  <img src="img/regalo.svg">
-                </div>
+                <div class="col-2"><img src="img/regalo.svg"></div>
               </div>
               <hr>
               <div class="row">
@@ -151,7 +131,7 @@
                 </div>
                 <div class="col">
                   <p>Tránsito: 0.0 </p>
-                  <p>Tránsito: 0.0 </p>  
+                  <p>Tránsito: 0.0 </p>
                 </div>
               </div>
             </div>
@@ -167,9 +147,7 @@
                     <p>Linea: 011A -Abboutt Nutricional</p>
                   </div>
                 </div>
-                <div class="col-2"> 
-                  <img src="img/regalo.svg">
-                </div>
+                <div class="col-2"><img src="img/regalo.svg"></div>
               </div>
               <hr>
               <div class="row">
@@ -183,7 +161,7 @@
                 </div>
                 <div class="col">
                   <p>Tránsito: 0.0 </p>
-                  <p>Tránsito: 0.0 </p>  
+                  <p>Tránsito: 0.0 </p>
                 </div>
               </div>
             </div>
@@ -199,9 +177,7 @@
                     <p>Linea: 011A -Abboutt Nutricional</p>
                   </div>
                 </div>
-                <div class="col-2"> 
-                  <img src="img/regalo.svg">
-                </div>
+                <div class="col-2"><img src="img/regalo.svg"></div>
               </div>
               <hr>
               <div class="row">
@@ -215,23 +191,18 @@
                 </div>
                 <div class="col">
                   <p>Tránsito: 0.0 </p>
-                  <p>Tránsito: 0.0 </p>  
+                  <p>Tránsito: 0.0 </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-  </div>
-</div>
-
-
-
-
-
-    <!-- jQuery , Bootstrap JS -->
+      </div>
+    </div>
+    <!-- jQuery , Bootstrap JS-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!--myjs-->
+    <!-- myjs-->
     <script src="js/min.js"></script>
-</body>
+  </body>
 </html>

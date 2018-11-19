@@ -1,0 +1,170 @@
+doctype html
+html
+  head
+    include base/head.pug
+  body
+    include base/menu.pug
+    
+    .info-cost
+      .container
+        #cost-info.tabcontent
+          .head-title
+              a(href='clientes.html')
+                i.fas.fa-arrow-left
+              h2 DATOS DEL CLIENTE
+          .head-client
+            .row
+              .col
+                .float-left
+                  p 458565
+                .float-right
+                  p RUC: 20562841921
+              .col-12
+                h2 Alcimar Farm E.I.R.L. / BOTICA ALCIMARS
+          .row
+            .col-4
+              .phone
+                img(src='img/icon-phone.svg')
+                p  958654789
+            .col-8
+              .email
+                img(src='img/icon-email.svg')
+                p pagos@alcimarsmedic.com
+          .row.credito
+            .col-4
+              .circle
+                h3 60,000.00
+                p Linea de credito
+            .col-4
+              .circle
+                h3 60,000.00
+                p Linea de credito
+            .col-4
+              .circle
+                h3 60,000.00
+                p Linea de credito
+          .row.detalle
+            .col
+              p Trat. Comercial: 14- Farmacia independ.
+              p Det. Negocio: 51 - Farmacia / Botica 
+              .pago.media
+                img(src='img/icon-calendar.svg')
+                p  C.Pago: Credito 60 dÍas + 10DG(PE
+              .bloqueo.media
+                img(src='img/icon-check.svg')
+                p  Bloqueo por credito: No
+              p Cobrador: 00012800 - Jose Rojas
+
+        #last-orders.tabcontent
+          .head-title
+              a(href='clientes.html')
+                i.fas.fa-arrow-left
+              h2 ULTIMOS PEDIDOS
+          // Acordion container
+          #accordion.panel-group
+            // First item
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse1')
+                    | Octubre S/. 10837.95 
+                    i.indicator.glyphicon.glyphicon-chevron-down-custom.pull-right
+                      span.sp-1
+                      span.sp-2
+              #collapse1.panel-collapse.collapse
+                .panel-body
+                  .fordays
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                  .fordays
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+            // Second item
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse2')
+                    | Septiembre  S/. 1066.67 
+                    i.indicator.glyphicon.glyphicon-chevron-down-custom.pull-right
+                      span.sp-1
+                      span.sp-2
+              #collapse2.panel-collapse.collapse
+                .panel-body
+                  .fordays
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                  .fordays
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+                    .dia
+                      p 1
+                      p S/.1250.53
+            // End of accordion
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+          br
+    .nav-info
+      button#defaultOpen.tablink(onclick="openCity('cost-info', this )") Informacion del cliente
+      // <button class="tablink" onclick="openCity('products-recomm', this )">Productos recomendados</button>
+      button.tablink(onclick="openCity('last-orders', this )") Ultimos Pedidos
+    include base/script.pug

@@ -1,13 +1,13 @@
-/*edetalle de pedido*/
+/*****edetalle de pedido******/
 .nav-pedido {
-    display: flex;
+  display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
   height: 100%;
 }
 .nav-pedido .tablink {
   width: 50%;
-  font-size: 15px;
+  font-size: 14px;
 }
 .back-form-detalle {
   background-color: #fff;
@@ -16,28 +16,14 @@
 }
 
 
-
 /**form*/
-
-.lw { font-size: 60px; }
-:root {
-  --main-color: #f8f9fa;
-  --second-color: #ced4da;
-  --gray-text: #9eaab8;
-  --black: #3a3a3a;
-  --green: #d2e64b;
-  --blue: #2f9075;
-  --red: #df5621;
-  --gray: #ced4da;
-}
-
 
 .form-title {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
-  color: var(--gray-text);
+  color: #9eaab8;
   margin-bottom: 16px;
 }
 .form-group {
@@ -46,7 +32,7 @@
   margin-bottom: 16px;
 }
 .form-group-label {
-  color: var(--gray-text);
+  color: #9eaab8;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -72,9 +58,9 @@
   padding-left: 16px;
   padding-top: 16px;
   border-radius: 2px;
-  color: var(--black);
+  color: #3a3a3a;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  background-color: var(--main-color);
+  background-color: #fff;
 }
 .form-group-line {
   position: absolute;
@@ -111,6 +97,14 @@
     }
 }
 /*posiciones*/
+#posiciones .empty-cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40% 0;
+    color: #cbcbcb;
+}
 .tabcontent .icon-add img {
     width: 50px;
     position: fixed;

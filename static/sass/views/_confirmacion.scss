@@ -1,7 +1,19 @@
-//confirmacion
+/*****confirmacion******/
 .felicidades {
 	background-color: #31b572;
     margin: 10px 0;
     padding: 10px;
     color: #fff;
+}
+.box-cp {
+	border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    h6 {
+    	font-size: 17px;
+    	color: #0e656b;
+    }
+    p {
+    	font-size: 12px;
+    }
 }

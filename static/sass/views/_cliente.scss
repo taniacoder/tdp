@@ -1,9 +1,15 @@
-
-//clientes-timeline
+/*****clientes-timeline******/
 div.cients-list {
   display: flex;
   flex: auto;
   overflow-y: auto;
+}
+.customers h3 {
+  font-size: 16px;
+  padding: 10px 0 0;
+}
+.date h3 {
+      font-size: 22px;
 }
 
 #timeline {
@@ -52,28 +58,12 @@ div.cients-list {
 
 #timeline section.day section .item {
   padding: 0 0 0 55px;
-  /*margin: -1.35rem 0 1em;
-  max-width: 32rem;
-  font-size: 1em;*/
       background-color: #fff;
     margin-left: 60px;
     padding: 10px;
     border-radius: 6px;
         overflow: hidden;
 }
-/*@media (min-width: 62em) {
-  #timeline section.year section ul {
-    font-size: 1.1em;
-    padding: 0 0 0 81px;
-  }
-}*/
-/*#timeline section.year section ul:last-child {
-  margin-bottom: 0;
-      background: #fff;
-    margin-left: 60px;
-    padding: 10px;
-    border-radius: 8px;
-}*/
 #timeline section.day section .item:first-of-type:after {
   content: '';
   width: 13px;

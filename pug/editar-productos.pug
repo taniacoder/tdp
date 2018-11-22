@@ -1,0 +1,165 @@
+doctype html
+html
+  head
+    include base/head.pug
+  body
+    include base/menu.pug
+    
+    .detalles-producto
+      #head-subtitle
+        .container-fluid
+          .head
+            a.float-left.txt-green(href='clientes.html')
+              i.fas.fa-arrow-left
+            h2   CONDICION COMERCIAL
+      .head-product
+        .container-fluid
+          .row
+            .col-7
+              h5 09098 GLUCERNA (TRIPLE CARE) PVO/SOL OR X900G
+            .col-5
+              .icons-modal.float-right
+                button.btn.btn-primary(type='button', data-toggle='modal', data-target='#stock')
+                  img(src='img/icon-stock.svg')
+                #stock.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                  .modal-dialog(role='document')
+                    .modal-content
+                      button.close.text-secondary(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true') ×
+                      .modal-header
+                        h5#exampleModalLabel.modal-title.titlemodal.txt-green
+                          | 09098 
+                          strong  - GLUCERNA (TRIPLE CARE) PVO/SOL OR X900G
+                      .modal-body
+                        p.txt-green Stock por lote
+                        .container
+                          .row
+                            .col-3
+                              ul.color-list
+                                li Lote
+                                li 88305QU03
+                                li 88305QU03
+                                li 88305QU03
+                            .col-3
+                              ul.color-list
+                                li Almacén
+                                li 007
+                                li 007
+                                li 0001
+                            .col-3
+                              ul.color-list
+                                li Cantidad
+                                li 1.000
+                                li 12.000
+                                li 181.000
+                            .col-3
+                              ul.color-list
+                                li Fecha Ven.
+                                li 05.2020
+                                li 12.2018
+                                li 05.2020
+                button.btn.btn-primary(type='button', data-toggle='modal', data-target='#regalo')
+                  img(src='img/icon-regalo2.svg')
+                #regalo.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                  .modal-dialog(role='document')
+                    .modal-content
+                      button.close.text-secondary(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true') ×
+                      .modal-header
+                        h5#exampleModalLabel.modal-title.titlemodal.txt-green
+                          | 209098 
+                          strong  - GLUCERNA (TRIPLE CARE) PVO/SOL OR X900G
+                      .modal-body
+                        p.txt-green Plan comercial
+                        .container
+                          .row
+                            .col-3.pdl-5
+                              ul.color-list
+                                li Lote
+                            .col-3
+                              ul.color-list
+                                li Promoción
+                            .col-6
+                              ul.color-list
+                                li Descripción
+                          .row.item-box
+                            .col-3
+                              p.mg-20 6
+                            .col-3
+                              p.mg-20 6+1UN
+                            .col-6
+                              p
+                                | Bonifi. Col INR[212129] - [PE18308358]
+                              p
+                                | Vig: Hasta: 2018/10/31
+                          .row.item-box
+                            .col-3
+                              p.mg-20 6
+                            .col-3
+                              p.mg-20 6+1UN
+                            .col-6
+                              p
+                                | Bonifi. Col INR[212129] - [PE18308358]
+                              p
+                                | Vig: Hasta: 2018/10/31
+                          .row.item-box
+                            .col-3
+                              p.mg-20 6
+                            .col-3
+                              p.mg-20 6+1UN
+                            .col-6
+                              p
+                                | Bonifi. Col INR[212129] - [PE18308358]
+                              p
+                                | Vig: Hasta: 2018/10/31
+      .container.relative
+        .form-comercial
+          form.form
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Cantidad
+              .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Posicion superior
+              .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Tipo de posicion
+              .form-group-line
+            .row
+              .col
+                .form-group
+                  input.form-group-input(type='text', required='')
+                  label.form-group-label Dcto. Total
+                  .form-group-line
+              .col
+                .form-group
+                  input.form-group-input(type='text', required='')
+                  label.form-group-label Dcto. R
+                  .form-group-line
+              .col
+                .form-group
+                  input.form-group-input(type='text', required='')
+                  label.form-group-label Dcto. Q
+                  .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Precio forzado unitario
+              .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Precio forzado final
+              .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Precio f
+              .form-group-line
+            .form-group
+              input.form-group-input(type='text', required='')
+              label.form-group-label Precio forzado 
+              .form-group-line
+            .btn-edit-prod
+              a(href='#') CONTINUAR
+
+    include base/script.pug

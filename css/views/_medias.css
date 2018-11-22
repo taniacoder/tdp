@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@media (max-width: 400px) {
+  /*Modals*/
+  .modal-body {
+    padding: 1rem 10px; }
+  .modal-header {
+    padding-left: 10px;
+    padding-top: 0; }
+  ul.color-list, .item-box {
+    font-size: 11px; }
+  .color-list li:nth-child(1) {
+    font-size: 13.5px; }
+  #regalo .color-list li:nth-child(1) {
+    margin-bottom: 0px; } }
+
+@media (max-width: 480px) {
+  /*Confirmación*/
+  .listado-productos {
+    padding-bottom: 100px; }
+  .btn-edit-prod.fixed-480 a {
+    border-radius: 0px;
+    text-align: center;
+    background-color: #0e646a;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    z-index: 99; }
+  .box-cp p {
+    font-size: 12px; } }
+
+/*Small devices (landscape phones, 576px and up)*/
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  .form-comercial {
+    margin: 0 20px 20px; }
+  .cen-width {
+    margin: 0; }
+  /*últimos pedidos*/
+  .panel-default > .panel-heading {
+    padding: 10px 0px; } }
+
+/*Large devices (desktops, 992px and up)*/
+/*Extra large devices (large desktops, 1200px and up)*/

@@ -1,0 +1,30 @@
+/*****confirmacion******/
+.felicidades {
+  background-color: #31b572;
+  margin: 10px 0;
+  padding: 10px;
+  color: #fff; }
+
+.box-cp {
+  border: 2px solid #ccc;
+  border-bottom: 0px;
+  background-color: #fff;
+  padding: 10px; }
+  .box-cp h6 {
+    font-size: 17px;
+    color: #0e656b;
+    font-weight: 600; }
+/*  .box-cp p {
+    font-size: 12px; }*/
+.box-cp:last-child {
+  border-bottom: 2px solid #ccc !important;}
+
+#confirmacion {
+  background-color: white;}
+
+#confirmacion .head-title {
+  padding: 10px;
+  color: black;}
+
+#confirmacion .head-title p:first-child {
+  font-weight: 600;}

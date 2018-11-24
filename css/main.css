@@ -123,7 +123,8 @@ div.cients-list {
   padding: 10px 0 0; }
 
 .date h3 {
-  font-size: 22px; }
+  font-size: 19px;
+  margin-bottom: 0; }
 
 #timeline {
   position: relative;
@@ -138,7 +139,7 @@ div.cients-list {
   position: absolute;
   top: .5rem;
   bottom: 0rem;
-  left: 40px;
+  left: 31px;
   z-index: 1;
   background: #63C282; }
 
@@ -170,7 +171,7 @@ div.cients-list {
 #timeline section.day section .item {
   padding: 0 0 0 55px;
   background-color: #fff;
-  margin-left: 60px;
+  margin-left: 46px;
   padding: 10px;
   border-radius: 6px;
   overflow: hidden; }
@@ -186,7 +187,7 @@ div.cients-list {
   -ms-border-radius: 50%;
   border-radius: 50%;
   position: absolute;
-  left: 34px;
+  left: 26px;
   top: 3px;
   z-index: 2; }
 
@@ -397,6 +398,13 @@ div.cients-list {
 
 #products-list .block-prod {
   font-size: 14px; }
+
+.icons-product {
+  position: absolute;
+  right: 10px; }
+
+.icons-product img {
+  padding: 0 5px; }
 
 /*****editar producto******/
 .detalles-producto {

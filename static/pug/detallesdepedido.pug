@@ -112,99 +112,101 @@ html
                 .col
                   .btn-border-green
                     a(href='productos.html') AGREGAR PRODUCTOS
-      #posiciones.tabcontent
-        .container-fluid.pd-0
-          //
-            .empty-cart
-            h3 Agregar productos
-            img(src='img/cruz.svg')
-          .box-product
-            .delete.float-right
-              a(href='#')
-                i.fas.fa-times
-            .row
-              .col
-                .name
-                  h6 465341 - ALIPRAC PV ORAL CAJ X 06
-            .row
-              .col
-                .form-group
-                  input.form-group-input.bg-gray(type='text', required='')
-                  label.form-group-label Posición:
-                  .form-group-line
-              .col
-                .form-group
-                  input.form-group-input.bg-gray(type='text', required='')
-                  label.form-group-label Cantidad:
-                  .form-group-line
-              .col-1
-                .icon-edit
-                  a(href='editar-productos')
-                    img(src='img/icon-edit.svg')
-              .col.total
-                p Total: 300
-          .box-product
-            .delete.float-right
-              a(href='#')
-                i.fas.fa-times
-            .row
-              .col
-                .name
-                  h6 465341 - ALIPRAC PV ORAL CAJ X 06
-            .row
-              .col
-                .form-group
-                  input.form-group-input(type='text', required='')
-                  label.form-group-label Posición:
-                  .form-group-line
-              .col
-                .form-group
-                  input.form-group-input(type='text', required='')
-                  label.form-group-label Cantidad:
-                  .form-group-line
-              .col-1
-                .icon-edit
-                  a(href='editar-productos')
-                    img(src='img/icon-edit.svg')
-              .col.total
-                p Total: 300
-          .box-product
-            .delete.float-right
-              a(href='#')
-                i.fas.fa-times
-            .row
-              .col
-                .name
-                  h6 465341 - ALIPRAC PV ORAL CAJ X 06
-            .row
-              .col
-                .form-group
-                  input.form-group-input.bg-gray(type='text', required='')
-                  label.form-group-label Posición:
-                  .form-group-line
-              .col
-                .form-group
-                  input.form-group-input.bg-gray(type='text', required='')
-                  label.form-group-label Cantidad:
-                  .form-group-line
-              .col-1
-                .icon-edit
-                  a(href='editar-productos')
-                    img(src='img/icon-edit.svg')
-              .col.total
-                p Total: 300
-          .icon-add
-            a(href='productos.html')
-              img(src='img/icon-add.svg')
-        .btn-posicion
-          p Total Neto:     S/.600.00
-          .btn-bottom
-            .middle-l
-              .btn-border-green
-                a.btn-save(href='#') GUARDAR
-            .middle-r
-              .btn-backgrounb-green
-                a(href='confirmacion.html') CONFIRMAR PEDIDO
+    #posiciones.tabcontent
+      .container-fluid.pd-0
+        //
+          .empty-cart
+          h3 Agregar productos
+          img(src='img/cruz.svg')
+        .row
+          .content-products
+            .box-product
+              .delete.float-right
+                a(href='#')
+                  i.fas.fa-times
+              .row
+                .col
+                  .name
+                    h6 465341 - ALIPRAC PV ORAL CAJ X 06
+              .row
+                .col
+                  .form-group
+                    input.form-group-input.bg-gray(type='text', required='')
+                    label.form-group-label Posición:
+                    .form-group-line
+                .col
+                  .form-group
+                    input.form-group-input.bg-gray(type='text', required='')
+                    label.form-group-label Cantidad:
+                    .form-group-line
+                .col-1
+                  .icon-edit
+                    a(href='editar-productos')
+                      img(src='img/icon-edit.svg')
+                .col.total
+                  p Total: 300
+            .box-product
+              .delete.float-right
+                a(href='#')
+                  i.fas.fa-times
+              .row
+                .col
+                  .name
+                    h6 465341 - ALIPRAC PV ORAL CAJ X 06
+              .row
+                .col
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Posición:
+                    .form-group-line
+                .col
+                  .form-group
+                    input.form-group-input(type='text', required='')
+                    label.form-group-label Cantidad:
+                    .form-group-line
+                .col-1
+                  .icon-edit
+                    a(href='editar-productos')
+                      img(src='img/icon-edit.svg')
+                .col.total
+                  p Total: 300
+            .box-product
+              .delete.float-right
+                a(href='#')
+                  i.fas.fa-times
+              .row
+                .col
+                  .name
+                    h6 465341 - ALIPRAC PV ORAL CAJ X 06
+              .row
+                .col
+                  .form-group
+                    input.form-group-input.bg-gray(type='text', required='')
+                    label.form-group-label Posición:
+                    .form-group-line
+                .col
+                  .form-group
+                    input.form-group-input.bg-gray(type='text', required='')
+                    label.form-group-label Cantidad:
+                    .form-group-line
+                .col-1
+                  .icon-edit
+                    a(href='editar-productos')
+                      img(src='img/icon-edit.svg')
+                .col.total
+                  p Total: 300
+      .btn-posicion
+        .icon-add
+          a(href='productos.html')
+            img(src='img/icon-add.svg')
+        p Total Neto:     S/.600.00
+        .btn-bottom
+          .middle-l
+            .btn-border-green
+              a.btn-save(href='#') GUARDAR
+          .middle-r
+            .btn-backgrounb-green
+              a(href='confirmacion.html') CONFIRMAR PEDIDO
     #day.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
       .modal-dialog(role='document')
         .modal-content

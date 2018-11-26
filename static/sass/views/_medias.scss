@@ -1,7 +1,12 @@
 /*******medias******/
-@media (max-width: 350px) {
+@media (max-width: 360px){
   .btn-backgrounb-green a {
-  padding: 12px 15px !important;}
+    padding: 12px 15px !important;}
+
+  a.btn-save {
+    padding: 18px 45px;}
+}
+@media (max-width: 350px) {
   a.btn-save {
     padding: 17px 37px;
     margin: 10px !important;}
@@ -42,8 +47,8 @@
     margin: 30px 0;}
   .box-product .col {
     padding-right: 0px;}
-  .box-product {
-    padding: 11px 12px 10px 0px;}
+  /*.box-product {
+    padding: 11px 12px 10px 0px;}*/
   .btn-border-green {
     margin: 30px 0;}
 
@@ -71,11 +76,15 @@
     padding: 0 2px 0 8px; }
   .cant {
     width: 90% !important; } 
+  .block-prod .col-2 {
+  padding: 0 2px; }
+  .block-prod {
+  margin: 15px -15px;
+  }
   /*detalles de pedido*/
   .block-pedido .row{
     margin: 0;
-  }
-
+    }
   }
 
 /*Small devices (landscape phones, 576px and up)*/

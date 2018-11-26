@@ -807,11 +807,14 @@ i.fas.fa-share-alt {
   position: fixed;
   bottom: 0;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background-color: #dcdbdb;
+  z-index: 10; }
 
 .btn-posicion p {
   color: #0e646a;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-top: 5px; }
 
 .middle-l {
   width: 50%; }
@@ -823,8 +826,8 @@ i.fas.fa-share-alt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #dcdbdb;
-  margin-top: 15px; }
+  background-color: #e8e8e8;
+  margin-top: 8px; }
 
 a.btn-save {
   padding: 18px 50px;

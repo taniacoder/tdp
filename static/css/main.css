@@ -36,6 +36,9 @@ p {
 .bg-gray {
   background-color: #dcdbdb85 !important; }
 
+.green-esmrld {
+  color: #27b79f; }
+
 /*navbar*/
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -512,6 +515,12 @@ span.txt-coll {
 
 .icons-product img {
   padding: 10px 4px; }
+
+.cant {
+  width: 100%;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #ccc; }
 
 /*****editar producto******/
 .detalles-producto {

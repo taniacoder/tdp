@@ -34,3 +34,21 @@
 
 #confirmacion .head-title p:first-child {
   font-weight: 600; }
+
+.shared {
+    border: 2px solid #d6d6d6;
+    padding: 4px;
+}
+
+.shared i.fas.fa-share-alt {
+    border-right: 1px solid;
+    padding-right: 4px;
+    display: none;
+}
+
+.shared .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 33px;
+    padding: 10px;
+    color: #06c137;
+}

@@ -124,9 +124,20 @@ html
               label.form-group-label Posicion superior
               .form-group-line
             .form-group
-              input.form-group-input(type='text', required='')
-              label.form-group-label Tipo de posicion
-              .form-group-line
+              label.form-group-label Tipo de posición
+              select#tip_pos.form-control.form-group-input
+                option(value='0')
+                option 1
+                option 2
+                option 3
+                option 4
+                option 5
+            .row
+              .col
+                .custom-control.custom-checkbox
+                  input#customCheck1.custom-control-input(type='checkbox')
+                  label.custom-control-label(for='customCheck1')
+                    p No condición venta
             .row
               .col
                 .form-group
@@ -159,7 +170,7 @@ html
               input.form-group-input(type='text', required='')
               label.form-group-label Precio forzado 
               .form-group-line
-            .btn-edit-prod
+            .btn-backgrounb-green
               a(href='#') CONTINUAR
 
     include base/script.pug

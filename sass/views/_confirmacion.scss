@@ -10,21 +10,27 @@
   border-bottom: 0px;
   background-color: #fff;
   padding: 10px; }
-  .box-cp h6 {
-    font-size: 17px;
-    color: #0e656b;
-    font-weight: 600; }
+
+.box-cp h6 {
+  font-size: 17px;
+  color: #0e656b;
+  font-weight: 600; }
+
+.extras {
+  margin: 12px 0;
+  min-height: 45px;}
+
 /*  .box-cp p {
     font-size: 12px; }*/
-.box-cp:last-child {
-  border-bottom: 2px solid #ccc !important;}
+.box-cp-last {
+  border-bottom: 2px solid #ccc !important; }
 
 #confirmacion {
-  background-color: white;}
+  background-color: white; }
 
 #confirmacion .head-title {
   padding: 10px;
-  color: black;}
+  color: black; }
 
 #confirmacion .head-title p:first-child {
-  font-weight: 600;}
+  font-weight: 600; }

@@ -21,6 +21,28 @@ p {
 .cen-width{
   margin: 0 100px 20px;
 }
+.mgt-0{
+  margin-top: 0px !important;}
+
+.mgb-0{
+  margin-bottom: 0px !important;}
+
+.pdt-15 {
+  padding-top: 15px;}
+  
+.bg-gray {
+background-color: #dcdbdb85 !important;}
+
+/*navbar*/
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: transparent;
+  padding-left: 0px;}
+.navbar-toggler:focus, .navbar-toggler:hover {
+  text-decoration: none;
+  outline: 0px auto -webkit-focus-ring-color;
+  padding-left: 0px;}
+
 /*buscador*/
 .search {
   padding: 15px 0;
@@ -30,6 +52,9 @@ p {
   width: 100%;
   z-index: 100;
   top: 0; }
+
+button#buscar {
+  padding-top: 8px;}
 
 .btn-green {
   background-color: #499F73;
@@ -56,26 +81,33 @@ p {
   font-size: 20px; }
 
 .head h2 {
-  font-size: 17px;
+  font-size: 15px;
   color: #767676;
   margin-bottom: 0; }
 
-//header
-#head-subtitle {
-  background: #fff;
-}
-.head {
-  background: #fff;
-  padding: 10px 0;
-  display: flex;
-}
-.head a {
-  color: #0E646A;
-    padding: 0 10px 0 0;
-    font-size: 20px;
-}
-.head h2 {
-  font-size: 17px;
-  color: #767676;
-  margin-bottom: 0;
-}
+
+.btn-border-green {
+  margin: 30px;
+  text-align: center; }
+  .btn-border-green a {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #1da25f;
+    text-align: center; }
+
+.btn-backgrounb-green {
+  text-align: center; }
+ .btn-backgrounb-green a {
+    border-radius: 10px;
+    padding: 20px 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0e646a;
+    margin: 10px;
+    min-width: 153px;
+    display: inline-block;
+    text-decoration: none; }
+
+
+

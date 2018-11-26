@@ -22,38 +22,42 @@ html
               .col-12
                 h2 Alcimar Farm E.I.R.L. / BOTICA ALCIMARS
           .row
-            .col-4
-              .phone
-                img(src='img/icon-phone.svg')
-                p  958654789
-            .col-8
-              .email
-                img(src='img/icon-email.svg')
-                p pagos@alcimarsmedic.com
-          .row.credito
-            .col-4.text-center
-              .circle
-                h3 60,000.00
-                p Linea de credito
-            .col-4.text-center
-              .circle
-                h3 60,000.00
-                p Linea de credito
-            .col-4.text-center
-              .circle
-                h3 60,000.00
-                p Linea de credito
-          .row.detalle
-            .col
-              p Trat. Comercial: 14- Farmacia independ.
-              p Det. Negocio: 51 - Farmacia / Botica 
-              .pago.media
-                img(src='img/icon-calendar.svg')
-                p  C.Pago: Credito 60 dÍas + 10DG(PE
-              .bloqueo.media
-                img(src='img/icon-check.svg')
-                p  Bloqueo por credito: No
-              p Cobrador: 00012800 - Jose Rojas
+            .col-12.col-sm-7
+              .row
+                .col-12.col-md-4
+                  .phone
+                    img(src='img/icon-phone.svg')
+                    p  958654789
+                .col-12.col-md-8
+                  .email
+                    img(src='img/icon-email.svg')
+                    p pagos@alcimarsmedic.com
+              .row.credito
+                .col-4.text-center
+                  .circle
+                    h3 60,000.00
+                    p Linea de credito
+                .col-4.text-center
+                  .circle
+                    h3 31,262.26
+                    p Comprometido total
+                .col-4.text-center
+                  .circle
+                    h3 28,737.74
+                    p Linea por utilizar
+            .col-12.col-sm-5
+              .row.detalle
+                .col
+                  p Trat. Comercial: 14- Farmacia independ.
+                  p Det. Negocio: 51 - Farmacia / Botica 
+                  .pago.media
+                    img(src='img/icon-calendar.svg')
+                    p  C.Pago: Credito 60 dÍas + 10DG(PE
+                  .bloqueo.media
+                    img(src='img/icon-check.svg')
+                    p  Bloqueo por credito: No
+                  p Cobrador: 00012800 - Jose Rojas
+
         #last-orders.tabcontent
           .head
             a(href='clientes.html')
@@ -82,27 +86,27 @@ html
                       p 1
                       p.txt-green S/.1250.53
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 2
+                      p.txt-green S/.718.05
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 3
+                      p.txt-green S/.275.53
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 5
+                      p.txt-green S/.1180.26
                   .fordays
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 17
+                      p.txt-green S/.687.34
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 22
+                      p.txt-green S/.606.83
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 24
+                      p.txt-green S/.250.36
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 25
+                      p.txt-green S/.681.05
             // Second item
             .panel.panel-default
               .panel-heading
@@ -124,27 +128,27 @@ html
                       p 1
                       p.txt-green S/.1250.53
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 2
+                      p.txt-green S/.718.05
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 3
+                      p.txt-green S/.275.53
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 5
+                      p.txt-green S/.1180.26
                   .fordays
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 17
+                      p.txt-green S/.687.34
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 22
+                      p.txt-green S/.606.83
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 24
+                      p.txt-green S/.250.36
                     .dia
-                      p 1
-                      p.txt-green S/.1250.53
+                      p 25
+                      p.txt-green S/.681.05
             // End of accordion
           br
           br
@@ -173,9 +177,16 @@ html
           br
           br
     .nav-info
-      button#defaultOpen.tablink(onclick="openCity('cost-info', this )") Informacion del cliente
+    .nav-info
+      button#defaultOpen.tablink(onclick="openCity('cost-info', this )")
+        span.icon-tab.icon-icon-pedidos
+          i.fas.fa-info-circle
+        |    Informacion del cliente
       // <button class="tablink" onclick="openCity('products-recomm', this )">Productos recomendados</button>
-      button.tablink(onclick="openCity('last-orders', this )") Ultimos Pedidos
+      button.tablink(onclick="openCity('last-orders', this )")
+        span.icon-tab
+          i.fas.fa-file-invoice-dollar
+        |         Ultimos Pedidos
 
 
     include base/script.pug

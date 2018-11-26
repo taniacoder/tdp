@@ -19,7 +19,6 @@
   padding: 10px;
   width: 100%; }
 
-
 /**form*/
 .form-title {
   font-size: 18px;
@@ -94,17 +93,11 @@
   animation: input2 0.5s 1 ease;
   width: 100%; }
 
-.btn-tdp {
-  margin: 30px;
-  text-align: center; }
-  .btn-tdp a {
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 10px 15px;
-    color: #1da25f;
-    text-align: center; }
+select {
+  color: #9eaab8 !important;}
 
-    
+
+
 /*posiciones*/
 #posiciones .empty-cart {
   display: -webkit-box;
@@ -121,11 +114,25 @@
   padding: 40% 0;
   color: #cbcbcb; }
 
-.tabcontent .icon-add img {
+.tabcontent .icon-add a img {
   width: 50px;
   position: fixed;
-  bottom: 80px;
+  bottom: 112px;
   right: 20px; }
+
+.block-pedido {
+  background-color: white;}
+
+.box-product:nth-child(even) {
+  background-color: #449c7347;}
+
+.shared {
+  border: 2px solid;
+  padding: 4px;}
+
+i.fas.fa-share-alt {
+  border-right: 1px solid;
+  padding-right: 4px;}
 
 .box-product {
   background-color: #fff;
@@ -153,16 +160,38 @@
 .btn-posicion {
   position: fixed;
   bottom: 0;
-  text-align: center; }
-  .btn-posicion p {
-    color: #0e646a;
-    font-weight: bold; }
-  .btn-posicion a {
-    border-radius: 10px;
-    padding: 20px 25px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #0e646a;
-    margin: 10px;
-    min-width: 153px;
-    display: inline-block; }
+  text-align: center; 
+  width: 100%;}
+
+.btn-posicion p {
+  color: #0e646a;
+  font-weight: bold; }
+
+.middle-l {
+  width: 50%;}
+
+.middle-r {
+  width: 50%;}
+
+.btn-bottom {
+  display: flex;
+  background-color: #dcdbdb;
+  margin-top: 15px;}
+
+a.btn-save {
+  padding: 18px 50px;
+  text-decoration: none;
+}
+
+#day .modal-content {
+  background-color: #f1f1f1;
+}
+.search-modal {
+  width: 100%;}
+
+button.modal-detail {
+  background-color: transparent;
+  border: 0px;}
+
+button.modal-detail:focus {
+  outline: 0px;}

@@ -77,8 +77,10 @@
 .credito .circle {
   border: 3px #ccc solid;
   border-radius: 50%;
-  width: 95px;
-  height: 95px;
+  /*width: 95px;
+  height: 95px;*/
+  width: 120px;
+  height: 120px;
   display: inline-block;
   text-align: center; }
 
@@ -94,9 +96,10 @@
 
 .info-cost .detalle {
   text-align: left;
-  font-size: 15px;
+  /*font-size: 15px;*/
+  font-size: 17px;
   padding: 25px 0 250px;
-  line-height: 17px; }
+  line-height: 20px; }
 
 /*2*/
 /*General style */
@@ -124,7 +127,9 @@
   background-color: white !important; }
 
 .panel-heading {
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;}
 
 .panel-default > .panel-heading h4 {
   font-size: 16px; }
@@ -167,11 +172,30 @@
 .dia {
   background-color: #cccc;
   padding: 10px 6px 6px;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  margin: 0 5px; }
 
 .dia p:first-child {
-  font-size: 24px; }
+  font-size: 24px; 
+  display: inline-flex;
+  width: 50%;}
 
 .dia p:last-child {
   font-size: 14px;
-  padding-top: 5px; }
+  padding-top: 5px; 
+  display: inline-flex;}
+
+span.txt-coll {
+  position: absolute;
+  top: 5px;}
+
+
+
+/*
+.icon-icon-pedidos:before {
+    content: "\e900";
+    color: #fff;
+    font-size: 30px;
+}
+*/

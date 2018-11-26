@@ -59,7 +59,7 @@ html
                   p Precio F FIN
                   p Precio F FIN
                   p Total Neto 300.00
-            .box-cp
+            .box-cp.box-cp-last
               .row
                 .col
                   h6 465341 ALIPRAC PV ORAL CAJ X 06
@@ -80,10 +80,15 @@ html
                   p Precio F FIN
                   p Precio F FIN
                   p Total Neto 300.00
-        .confirmacion-total.float-right
-          p Total Neto:  S/.600.00
+            .extras
+              .float-left
+                .shared
+                  i.fas.fa-share-alt
+                  a(href='')
+                    i.fab.fa-whatsapp
+              .confirmacion-total.float-right
+                p.txt-green Total Neto:  S/.600.00
         .btn-edit-prod.fixed-480
           a(href='#') FINALIZAR
-
 
     include base/script.pug

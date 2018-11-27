@@ -5,11 +5,11 @@
 	 width="120.382px" height="121.306px" viewBox="0 0 120.382 121.306" enable-background="new 0 0 120.382 121.306"
 	 xml:space="preserve">
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.665" y1="81.1641" x2="95.7163" y2="40.1426">
-	<stop  offset="0" style="stop-color:#0E646A"/>
-	<stop  offset="1" style="stop-color:#80D97B"/>
+	<stop  offset="0" style="stop-color:#f52d2d"/>
+	<stop  offset="1" style="stop-color:#f52d2d"/>
 </linearGradient>
 <circle fill="url(#SVGID_1_)" cx="60.191" cy="60.653" r="41.015"/>
-<circle fill="none" stroke="#0E646A" stroke-width="2" stroke-miterlimit="10" cx="60.191" cy="60.652" r="51.293"/>
+<circle fill="none" stroke="#f52d2d" stroke-width="2" stroke-miterlimit="10" cx="60.191" cy="60.652" r="51.293"/>
 <g id="XMLID_66_">
 	<path id="XMLID_97_" fill="#FFFFFF" d="M51.023,52.852h17.753c0.336,0,0.607-0.271,0.607-0.606s-0.271-0.607-0.607-0.607H51.023
 		c-0.336,0-0.607,0.272-0.607,0.607S50.688,52.852,51.023,52.852z"/>

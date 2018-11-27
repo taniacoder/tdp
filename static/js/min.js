@@ -8,11 +8,11 @@ function openCity(cityName,elmnt) {
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
-        tablinks[i].style.color = '#0E646A';
+        tablinks[i].style.color = '#f52d2d';
 
     }
     document.getElementById(cityName).style.display = "block";
-    elmnt.style.backgroundColor = '#0E646A';
+    elmnt.style.backgroundColor = '#f52d2d';
     elmnt.style.color = '#ffff';
 }
 // Get the element with id="defaultOpen" and click on it

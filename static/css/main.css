@@ -16,7 +16,7 @@ p {
   margin-bottom: 5px; }
 
 .txt-green {
-  color: #15707B; }
+  color: #31b572; }
 
 .relative {
   position: relative; }
@@ -37,7 +37,7 @@ p {
   background-color: #dcdbdb85 !important; }
 
 .green-esmrld {
-  color: #27b79f; }
+  color: #63c282; }
 
 /*navbar*/
 .navbar-dark .navbar-toggler {
@@ -64,7 +64,7 @@ button#buscar {
   padding-top: 8px; }
 
 .btn-green {
-  background-color: #499F73;
+  background-color: #f52d2d;
   color: #ffff;
   border: none;
   border-radius: 0 10px 10px 0; }
@@ -83,7 +83,7 @@ button#buscar {
   display: flex; }
 
 .head a {
-  color: #0E646A;
+  color: #f52d2d;
   padding: 0 10px 0 0;
   font-size: 20px; }
 
@@ -100,7 +100,7 @@ button#buscar {
   border: 2px solid;
   border-radius: 10px;
   padding: 10px 15px;
-  color: #1da25f;
+  color: #f52d2d;
   text-align: center; }
 
 .btn-backgrounb-green {
@@ -111,7 +111,7 @@ button#buscar {
   padding: 20px 25px;
   color: #ffffff;
   text-align: center;
-  background-color: #0e646a;
+  background-color: #f52d2d;
   margin: 10px;
   min-width: 153px;
   display: inline-block;
@@ -119,11 +119,11 @@ button#buscar {
 
 /*head*/
 .bg-light {
-  background-color: #f8f9fa !important;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
+  background-color: #000000 !important;
+  /*background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
   background-image: -webkit-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
   background-image: -o-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
-  background-image: linear-gradient(to right, #0e646a, #0c7371, #1a8275, #309175, #499f73); }
+  background-image: linear-gradient(to right, #0e646a, #0c7371, #1a8275, #309175, #499f73);*/ }
 
 .navbar-light .navbar-brand {
   color: #fff;
@@ -178,7 +178,7 @@ div.cients-list {
   bottom: 0rem;
   left: 31px;
   z-index: 1;
-  background: #63C282; }
+  background: #f52d2d; }
 
 #timeline .date {
   position: -webkit-sticky;
@@ -217,7 +217,7 @@ div.cients-list {
   content: '';
   width: 13px;
   height: 13px;
-  background: #63C282;
+  background: #f52d2d;
   border: 2px solid #FFFFFF;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -239,7 +239,7 @@ div.cients-list {
   float: left; }
 
 #timeline .item a {
-  color: #0e656b; }
+  color: #000000; }
 
 /*****cliente info******/
 .info-cost {
@@ -247,7 +247,7 @@ div.cients-list {
 
 .tablink {
   background-color: #eee;
-  color: #0E646A;
+  color: #f52d2d;
   float: left;
   border: none;
   outline: none;
@@ -281,12 +281,12 @@ div.cients-list {
 
 /*1*/
 .head-client {
-  background-color: #f8f9fa !important;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
+  background-color: #f52d2d !important;
+  /*background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
   background-image: -webkit-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
   background-image: -o-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
   background-image: linear-gradient(to right, #0e646a, #0c7371, #1a8275, #309175, #499f73);
-  padding: 5px;
+ */ padding: 5px;
   color: #fff; }
 
 .head-client h2 {
@@ -330,7 +330,7 @@ div.cients-list {
 .credito .circle h3 {
   font-size: 17px;
   padding-top: 25px;
-  color: #0e646a;
+  color: #f52d2d;
   font-weight: 700; }
 
 .credito .circle p {
@@ -363,7 +363,7 @@ div.cients-list {
 .panel-default > .panel-heading {
   text-align: left;
   margin: 10px 0;
-  background-color: #0d6f6f;
+  background-color: #f52d2d;
   color: white; }
 
 #accordion .glyphicon-chevron-down-custom span, .glyphicon-chevron-up-custom span {
@@ -454,11 +454,11 @@ span.txt-coll {
   /*height: 143px;
   max-height: 300px;*/
   height: auto;
-  border-bottom: 2px solid #0d696c;
+  border-bottom: 2px solid #f52d2d;
   margin: 15px 15px; }
 
 .block-prod h6 {
-  color: #0d696c;
+  color: #000000;
   font-weight: bold; }
 
 .bloque-prod p {
@@ -527,12 +527,12 @@ span.txt-coll {
   position: relative; }
 
 .head-product {
-  background-color: #f8f9fa !important;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
+  background-color: #f52d2d !important;
+ /* background-image: -webkit-gradient(linear, left top, right top, from(#0e646a), color-stop(#0c7371), color-stop(#1a8275), color-stop(#309175), to(#499f73));
   background-image: -webkit-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
   background-image: -o-linear-gradient(left, #0e646a, #0c7371, #1a8275, #309175, #499f73);
   background-image: linear-gradient(to right, #0e646a, #0c7371, #1a8275, #309175, #499f73);
-  margin: 15px 0 0;
+ */ margin: 15px 0 0;
   padding: 15px 0 40px;
   color: white; }
 
@@ -574,7 +574,7 @@ span.txt-coll {
   padding: 20px 25px;
   color: #ffffff;
   text-align: center;
-  background-color: #0e646a;
+  background-color: #f52d2d;
   margin: 10px;
   min-width: 153px;
   display: inline-block;
@@ -826,7 +826,7 @@ i.fas.fa-share-alt {
   z-index: 10; }
 
 .btn-posicion p {
-  color: #0e646a;
+  color: #f52d2d;
   font-weight: bold;
   padding-top: 5px; }
 
@@ -875,7 +875,7 @@ button.modal-detail:focus {
 
 .box-cp h6 {
   font-size: 17px;
-  color: #0e656b;
+  color: #000000;
   font-weight: 600; }
 
 .extras {
@@ -973,7 +973,7 @@ button.modal-detail:focus {
   .btn-edit-prod.fixed-480 a {
     border-radius: 0px;
     text-align: center;
-    background-color: #0e646a;
+    background-color: #f52d2d;
     margin: 0px;
     width: 100%;
     position: fixed;

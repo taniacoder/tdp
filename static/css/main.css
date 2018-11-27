@@ -16,7 +16,7 @@ p {
   margin-bottom: 5px; }
 
 .txt-green {
-  color: #31b572; }
+  color: #000000; }
 
 .relative {
   position: relative; }
@@ -111,7 +111,7 @@ button#buscar {
   padding: 20px 25px;
   color: #ffffff;
   text-align: center;
-  background-color: #f52d2d;
+  background-color: #000000;
   margin: 10px;
   min-width: 153px;
   display: inline-block;
@@ -318,7 +318,7 @@ div.cients-list {
   padding: 20px 0 10px; }
 
 .credito .circle {
-  border: 3px #ccc solid;
+  border: 3px #f52d2d solid;
   border-radius: 50%;
   /*width: 95px;
   height: 95px;*/
@@ -330,7 +330,7 @@ div.cients-list {
 .credito .circle h3 {
   font-size: 17px;
   padding-top: 25px;
-  color: #f52d2d;
+  color: #000000;
   font-weight: 700; }
 
 .credito .circle p {
@@ -730,7 +730,7 @@ ul.color-list {
   left: 50%;
   width: 0%;
   height: 2px;
-  background-color: #339375;
+  background-color: #f52d2d;
   z-index: 1;
   -webkit-transform: translatex(-50%);
   -ms-transform: translatex(-50%);
@@ -779,7 +779,7 @@ select {
   background-color: white; }
 
 .box-product:nth-child(even) {
-  background-color: #449c7347; }
+  background-color: #a4a9a747; }
 
 .content-products {
   margin: auto; }
@@ -973,7 +973,7 @@ button.modal-detail:focus {
   .btn-edit-prod.fixed-480 a {
     border-radius: 0px;
     text-align: center;
-    background-color: #f52d2d;
+    background-color: #000000;
     margin: 0px;
     width: 100%;
     position: fixed;

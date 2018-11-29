@@ -34,13 +34,13 @@ body{
 }
 
 .f-tec {
-    background-color: #0c7170;
+    background-color: #000000;
     color: white;
     padding: 10px;
     height: 100%;
     font-style: italic;
     max-width: 47px;
-    margin-right: 15px;
+    margin-right: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ body{
     color: #757575;
     border: 1px solid;
     padding: 3px;
-    width: 50px;
+    width: 58px;
     text-align: center;
     border-radius: 5px;
 }
@@ -63,7 +63,8 @@ body{
 .f-qua {
     margin-left: 10px;
     margin-right: 10px;
-    color: #0e646a;
+    color: #000000;
+    font-weight: bold;
     font-size: 15px;
 }
 
@@ -72,7 +73,7 @@ body{
     /* border: 1px solid; */
     padding: 2px;
     text-align: center;
-    color: #117872;
+    color: #54b454;
     margin: 5px;
 }
 
@@ -89,17 +90,17 @@ body{
 }
 
 #accordion .card {
-    background-color: transparent;
     margin-bottom: 15px;
-    border-color: #0d7471;
 }
-
+#accordion .card .card-header {
+    background-color: #f52d2d;
+}
 #accordion .card-header{
     padding: 0;
 }
 
 #accordion button[data-toggle="collapse"]{
-    color: #0d7471;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
@@ -111,10 +112,13 @@ body{
 .back-icon{
     padding: 0px 15px;
     font-size: 19px;
-    color: #0c7371;
+    color: #000000;
     display: inline-block;
     margin-bottom: 15px;
     cursor: pointer;
+}
+.back-icon a {
+    color: #f52d2d;
 }
 
 .back-icon i{
@@ -128,7 +132,7 @@ body{
 #accordion span.fa-search{
     float: right;
     margin: 10px;
-    color: #218675;
+    color: #ffffff;
 }
 
 #accordion input.search-client{
@@ -160,14 +164,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #127973;
+    background-color: #000000;
     -webkit-box-shadow: 0px -1px 5px 0px rgba(152, 152, 152, 0.75);
     -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px -1px 5px 0px rgba(152, 152, 152, 0.75);
 }
 
 .boton-flotante button {
-    background-color: #459d73;
+    background-color: #f52d2d;
     padding: 16px;
     color: white;
     border: 0;

@@ -522,6 +522,10 @@ span.txt-coll {
   border-radius: 6px;
   border: 1px solid #ccc; }
 
+.cantidad .form-group-input {
+  background-color: #f3f3f3;
+}
+
 /*****editar producto******/
 .detalles-producto {
   position: relative; }
@@ -706,7 +710,7 @@ ul.color-list {
 .form-group-input:focus ~ .form-group-label,
 .form-group-input:valid ~ .form-group-label {
   font-size: 14px;
-  top: 0px;
+  top: 7px;
   color: #2f9075; }
 
 .form-group-input {
@@ -990,7 +994,7 @@ button.modal-detail:focus {
   .block-prod .col-3, .block-prod .col-6 {
     padding: 0 2px 0 8px; }
   .cant {
-    width: 50% !important; }
+    width: 75% !important; }
   .block-prod .col-2 {
     padding: 0 2px; }
   .block-prod {

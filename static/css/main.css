@@ -100,7 +100,7 @@ button#buscar {
   border: 2px solid;
   border-radius: 10px;
   padding: 10px 15px;
-  color: #f52d2d;
+  color: #f52d2d !important;
   text-align: center; }
 
 .btn-backgrounb-green {
@@ -832,6 +832,16 @@ i.fas.fa-share-alt {
   background-color: #dcdbdb;
   z-index: 10; }
 
+#posiciones {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;}
+
+.btn-bottom img {
+  position: relative;
+  top: -1px;}
+
 .btn-posicion p {
   color: #f52d2d;
   font-weight: bold;
@@ -851,7 +861,7 @@ i.fas.fa-share-alt {
   margin-top: 8px; }
 
 a.btn-save {
-  padding: 18px 50px;
+  padding: 18px 38px;
   text-decoration: none; }
 
 #day .modal-content {
@@ -866,6 +876,11 @@ button.modal-detail {
 
 button.modal-detail:focus {
   outline: 0px; }
+.modal-guardar-pedido .modal-dialog .btn-primary {
+  background-color: #63c282;
+  border-color: #63c282;
+}
+
 
 /*****confirmacion******/
 .felicidades {
@@ -921,14 +936,14 @@ button.modal-detail:focus {
 
 /*******medias******/
 @media (max-width: 360px) {
-  .btn-backgrounb-green a {
-    padding: 12px 15px !important; }
+  /*.btn-backgrounb-green a {
+    padding: 12px 15px !important; }*/
   a.btn-save {
     padding: 18px 45px; } }
 
 @media (max-width: 350px) {
   a.btn-save {
-    padding: 17px 37px;
+    padding: 17px 24px;
     margin: 10px !important; }
   .btn-backgrounb-green a {
     min-width: auto; }
@@ -964,12 +979,16 @@ button.modal-detail:focus {
   .panel-body .fordays:nth-child(2) {
     padding: 0px 5px 10px; }
   /*posiciones*/
+  .back-form-detalle {
+    padding: 10px 0px;}
   .btn-border-green {
     margin: 30px 0; }
   .box-product .col {
     padding-right: 0px; }
   /*.box-product {
     padding: 11px 12px 10px 0px;}*/
+  .box-product .col-3 {
+    padding: 0 0px 0px 10px;}
   .btn-border-green {
     margin: 30px 0; } }
 
@@ -1001,7 +1020,8 @@ button.modal-detail:focus {
     margin: 15px -15px; }
   /*detalles de pedido*/
   .block-pedido .row {
-    margin: 0; } }
+    margin: 0; } 
+  }
 
 /*Small devices (landscape phones, 576px and up)*/
 /*Medium devices (tablets, 768px and up)*/

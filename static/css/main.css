@@ -715,7 +715,7 @@ ul.color-list {
   outline: none;
   position: relative;
   width: 100%;
-  height: 56px;
+  height: 50px;
   padding-left: 16px;
   padding-top: 16px;
   border-radius: 2px;
@@ -814,11 +814,14 @@ i.fas.fa-share-alt {
   padding-top: 15px; }
 
 .box-product .total {
-  padding-top: 15px; }
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 0; }
 
 .btn-posicion {
-  position: -webkit-sticky;
-  position: sticky;
+  position: -webkit-fixed;
+  position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
@@ -987,7 +990,7 @@ button.modal-detail:focus {
   .block-prod .col-3, .block-prod .col-6 {
     padding: 0 2px 0 8px; }
   .cant {
-    width: 90% !important; }
+    width: 50% !important; }
   .block-prod .col-2 {
     padding: 0 2px; }
   .block-prod {

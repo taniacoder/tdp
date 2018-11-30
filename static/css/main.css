@@ -219,9 +219,6 @@ div.cients-list {
   height: 13px;
   background: #f52d2d;
   border: 2px solid #FFFFFF;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   position: absolute;
   left: 26px;
@@ -505,11 +502,15 @@ span.txt-coll {
   -webkit-transition: width 2s; }
 
 .block-prod .btn-primary img:hover {
-  transform: scale(1.1); }
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .block-prod a img:hover{
   cursor: pointer;
-  transform: scale(1.1); }
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
 
 #products-list .row {
   margin: 0px; }
@@ -983,7 +984,7 @@ background-color: #dcdddc;
     padding: 0 0px 0 15px;}
   .data-prod .col-4:nth-child(2) {
     padding: 0 0px 0 15px;}
-  }
+
   .block-prod h6 {
       color: #000000;
       font-weight: bold;

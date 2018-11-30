@@ -806,9 +806,6 @@ select {
 .block-pedido {
   background-color: white; }
 
-.box-product:nth-child(even) {
-  background-color: #a4a9a747; }
-
 .content-products {
   margin: auto; }
 
@@ -908,7 +905,9 @@ button.modal-detail:focus {
 .promo .form-group-input {
 background-color: #dcdddc;
 }
-
+.promo {
+  background-color: #d8d8d8; }
+  
 /*****confirmacion******/
 .felicidades {
   background-color: #31b572;
@@ -966,14 +965,16 @@ background-color: #dcdddc;
   /*.btn-backgrounb-green a {
     padding: 12px 15px !important; }*/
   a.btn-save {
-    padding: 18px 45px; } }
+    padding: 18px 35px; } }
 
 @media (max-width: 350px) {
   a.btn-save {
-    padding: 17px 24px;
-    margin: 10px !important; }
+      padding: 17px 19px;
+      /* margin: 10px !important; */
+  }
   .btn-backgrounb-green a {
-    min-width: auto; }
+    min-width: auto;
+        padding: 20px 17px; }
   #timeline .f-visita .u-pedido {
     float: left; }
   .pick-modal {

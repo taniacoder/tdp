@@ -505,11 +505,11 @@ span.txt-coll {
   -webkit-transition: width 2s; }
 
 .block-prod .btn-primary img:hover {
-  width: 30px; }
+  transform: scale(1.1); }
 
 .block-prod a img:hover{
   cursor: pointer;
-  width: 30px; }
+  transform: scale(1.1); }
 
 #products-list .row {
   margin: 0px; }

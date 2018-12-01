@@ -479,8 +479,8 @@ span.txt-coll {
 
 .block-prod .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc00;
-  border-color: #005cbf00; }
+    background-color: #0062cc00 !important;
+    border-color: #005cbf00 !important; }
 
 .block-prod .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
   -webkit-box-shadow: none;

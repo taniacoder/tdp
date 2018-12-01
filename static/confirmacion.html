@@ -21,12 +21,19 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01"><a class="navbar-brand" href="index.html"> <img src="img/logoo-23.svg"></a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active"><a class="nav-link" href="#">Toma de Pedido <span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="borrador.html">Borradores</a></li>
+          <li class="nav-item"><a class="nav-link" href="Borrador.html">Borradores</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Pedidos enviado</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Estado de pedido</a></li>
         </ul>
       </div>
     </nav>
+    <div id="head-subtitle">
+      <div class="container-fluid">
+        <div class="head">
+          <h2>Toma de pedidos / Confirmación</h2>
+        </div>
+      </div>
+    </div>
     <div id="confirmacion">
       <div class="head">
         <div class="container-fluid text-center">
@@ -41,6 +48,18 @@
             <p>Tu pedido P0001 ha sido procesado exitosamente.</p>
           </div>
           <div class="listado-productos">
+            <div class="head-resumen-total">
+              <div class="row">
+                <div class="col">
+                  <p>Venta Bruta: 1135.57</p>
+                  <p>Dcto Total: 237</p>
+                </div>
+                <div class="col text-right">
+                  <p>Impuesto:23.97</p>
+                  <p>Total Neto: S/.600.00 </p>
+                </div>
+              </div>
+            </div>
             <div class="box-cp">
               <div class="row">
                 <div class="col">
@@ -125,17 +144,30 @@
                 </div>
               </div>
             </div>
-            <div class="extras">
+            <br><br><br><br><br><br>
+          <!--  <div class="extras">
               <div class="float-left">
                 <div class="shared"><i class="fas fa-share-alt"></i><a href=""><i class="fab fa-whatsapp"></i></a></div>
               </div>
               <div class="confirmacion-total float-right">
                 <p class="txt-green">Total Neto:  S/.600.00</p>
               </div>
+            </div>-->
+          </div>
+        </div>
+        <!--<div class="btn-edit-prod fixed-480"><a href="index.html">FINALIZAR</a></div>-->
+        <div class="btn-confirmar fixed-480">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <p class="txt-green  neto">Total Neto: <strong>S/.600.00</strong> </p>
+              </div>
+              <div class="col-6">
+                <a href="index.html">FINALIZAR</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="btn-edit-prod fixed-480"><a href="index.html">FINALIZAR</a></div>
       </div>
     </div>
     <!-- jQuery , Bootstrap JS-->

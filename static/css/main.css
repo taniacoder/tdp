@@ -34,7 +34,7 @@ p {
   padding-top: 15px; }
 
 .bg-gray {
-  background-color: #dcdbdb85 !important; }
+  background-color: #dcdbdb !important; }
 
 .green-esmrld {
   color: #63c282; }
@@ -502,15 +502,11 @@ span.txt-coll {
   -webkit-transition: width 2s; }
 
 .block-prod .btn-primary img:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 .block-prod a img:hover{
   cursor: pointer;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+  transform: scale(1.1); }
 
 #products-list .row {
   margin: 0px; }
@@ -595,20 +591,6 @@ span.txt-coll {
   left: 0;
   right: 0; }
 
-.btn-edit-prod {
-  text-align: center; }
-
-.btn-edit-prod a {
-  border-radius: 10px;
-  padding: 20px 25px;
-  color: #ffffff;
-  text-align: center;
-  background-color: #f52d2d;
-  margin: 10px;
-  min-width: 153px;
-  display: inline-block;
-  text-decoration: none; }
-
 select#tip_pos:focus {
   border: 0px;
   -webkit-box-shadow: none;
@@ -669,7 +651,27 @@ ul.color-list {
   background-color: #d7fae7;
   padding: 5px 0px;
   margin-bottom: 2px;
-  color: #646363; }
+  color: #ffffff; }
+
+.pointer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #f52d2d;
+  margin-left: 0px;
+    height: 67px;
+  margin-top: 10px;}
+
+.pointer:after {
+  content: "";
+  position: absolute;
+  left: -23px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 23px solid #f52d2d;
+  border-top: 33px solid transparent;
+  border-bottom: 35px solid transparent;}
 
 #regalo ul.color-list, .color-list li:nth-child(1) {
   margin-bottom: 0px; }
@@ -801,7 +803,7 @@ select {
 .tabcontent .icon-add a img {
   width: 50px;
   position: absolute;
-  bottom: 110px;
+  bottom: 118px;
   right: 20px; }
 
 .block-pedido {
@@ -911,13 +913,18 @@ background-color: #dcdddc;
   
 /*****confirmacion******/
 .felicidades {
-  background-color: #31b572;
-  margin: 10px 0;
-  padding: 10px;
-  color: #fff; }
+    margin: 10px 0;
+    padding: 10px;
+    color: #31b572;
+    border: 2px #31b572 solid; }
+.head-resumen-total {
+  background-color: #d01212;
+    padding: 10px;
+    color: #fff;
+}
 
 .box-cp {
-  border: 2px solid #ccc;
+  border: 2px solid #c00;
   border-bottom: 0px;
   background-color: #fff;
   padding: 10px; }
@@ -934,7 +941,7 @@ background-color: #dcdddc;
 /*  .box-cp p {
     font-size: 12px; }*/
 .box-cp-last {
-  border-bottom: 2px solid #ccc !important; }
+  border-bottom: 2px solid #c00 !important; }
 
 #confirmacion {
   background-color: white; }
@@ -961,21 +968,82 @@ background-color: #dcdddc;
   padding: 10px;
   color: #06c137; }
 
+  .btn-confirmar.fixed-480 a {
+    border-radius: 4px;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px;
+    bottom: 5px;
+    padding: 10px 24px;
+    right: 5px;
+    min-width: 153px;
+    display: inline-block;
+    text-decoration: none;
+    }
+
+.btn-confirmar{
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    background-color: gray;
+    border-radius: 0px;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    z-index: 99;
+    height: 50px;
+    padding: 10px 5px;
+}
+
+.btn-confirmar .neto {
+    color: black;
+    padding: 6px;
+    font-size: 19px;
+}
+
 /*******medias******/
+
+@media (max-width: 336px){
+  /*.item-box.pointer:after {
+    top:7px;
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;}*/
+ /* .pointer {
+      font-size: 13px;
+     border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }  */  
+}
+@media (max-width: 368px){
+  .pointer:after {
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 23px solid #f52d2d;
+   /* border-top: 27px solid transparent;*/
+    border-bottom: 33px solid transparent;
+  }
+  #regalo ul.color-list {
+    font-size: 15px;}
+  .pointer{
+    font-size: 13px;}
+}
+
 @media (max-width: 360px) {
   /*.btn-backgrounb-green a {
     padding: 12px 15px !important; }*/
   a.btn-save {
-    padding: 18px 35px; } }
+    padding: 18px 45px; } }
 
 @media (max-width: 350px) {
   a.btn-save {
-      padding: 17px 19px;
-      /* margin: 10px !important; */
-  }
+    padding: 17px 24px;
+    margin: 10px !important; }
   .btn-backgrounb-green a {
-    min-width: auto;
-        padding: 20px 17px; }
+    min-width: auto; }
   #timeline .f-visita .u-pedido {
     float: left; }
   .pick-modal {
@@ -984,13 +1052,7 @@ background-color: #dcdddc;
     padding: 0 0px 0 15px;}
   .data-prod .col-4:nth-child(2) {
     padding: 0 0px 0 15px;}
-
-  .block-prod h6 {
-      color: #000000;
-      font-weight: bold;
-      padding-right: 18px;
   }
-}
 
 
 @media (max-width: 400px) {
@@ -1003,7 +1065,7 @@ background-color: #dcdddc;
     padding-left: 10px;
     padding-top: 0; }
   ul.color-list, .item-box {
-    font-size: 11px; }
+    font-size: 14px; }
   .color-list li:nth-child(1) {
     font-size: 13.5px; }
   #regalo .color-list li:nth-child(1) {
@@ -1033,26 +1095,22 @@ background-color: #dcdddc;
   .box-product .col-3 {
     padding: 0 0px 0px 10px;}
   .btn-border-green {
-    margin: 30px 0; } }
+    margin: 30px 0; }
+   .head .id-cliente {
+    font-size: 14px;
+   }
+ 
+  }
 
 @media (max-width: 480px) {
   /*Confirmación*/
   .listado-productos {
     padding-bottom: 100px; }
-  .btn-edit-prod.fixed-480 a {
-    border-radius: 0px;
-    text-align: center;
-    background-color: #000000;
-    margin: 0px;
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    right: 0;
-    left: 0;
-    z-index: 99; }
+
   .box-cp p {
     font-size: 12px; }
   /*productos*/
+ 
   .block-prod .col-3, .block-prod .col-6 {
     padding: 0 2px 0 8px; }
   .cant {
@@ -1067,6 +1125,14 @@ background-color: #dcdddc;
   .pick-modal {
     position: absolute;
     right: 0px;} 
+  #regalo .modal-body {
+    padding-right: 0px;}
+      /*confirmacion*/
+    .btn-confirmar .neto {
+    color: black;
+    padding: 6px;
+    font-size: 15px;
+  }
   }
 
 /*Small devices (landscape phones, 576px and up)*/
